@@ -1,0 +1,68 @@
+body {
+	background-color: rgb(85,107,47);
+	color: whitesmoke;
+	font-family: font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, h3	{
+	font-family: 'Oswald', sans-serif;
+}
+a {
+	font-family: 'Oswald', sans-serif;
+}
+a {
+	color: whitesmoke;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: yellow;
+}
+
+.sources {
+	width: 333px;
+	height: 200px;
+	border-radius: 50%;
+	border:3px solid black;
+}
+.container{
+background:rgb(85,107,47) ;                      
+padding: 30px;               
+border-radius: 4px;                      
+box-shadow: 0 0px 10px;
+width: 700px;
+margin: 0px auto;
+}
+@media (max-width:720px){
+	.container{
+		width: 500px;
+	}
+}
+
+.card{
+	text-align: center;
+}
+
+.btn-blue{
+	background-color: blue;
+	color: whitesmoke;
+	width: 200px;
+	padding: 15px 10px;
+	border-radius: 4px;
+	margin: 0px auto;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 40px;
+	color: whitesmoke;
+}
+@media (max-width:720px){
+
+}
